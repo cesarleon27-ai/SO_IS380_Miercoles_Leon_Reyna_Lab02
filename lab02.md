@@ -17,3 +17,7 @@ Creación de directorio nuevo y verificación en el sistema:
 Lectura del archivo de texto README incluido en el sistema:
 
 ![Comando cat README](img/ParteA_04.png)
+
+Redirección de texto para creación de archivo nuevo y lectura de verificación:
+
+![Redirección y cat](img/ParteA_05.png)
