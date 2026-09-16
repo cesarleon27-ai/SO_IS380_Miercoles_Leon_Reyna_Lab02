@@ -10,3 +10,6 @@ Impresión de texto y validación de datos del estudiante:
 
 ![Comando echo](img/ParteA_02.png)
 
+Creación de directorio nuevo y verificación en el sistema:
+
+![Comando mkdir](img/ParteA_03.png)
