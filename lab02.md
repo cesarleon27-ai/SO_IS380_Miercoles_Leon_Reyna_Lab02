@@ -1,1 +1,6 @@
-![Arranque de xv6 y comandos de la Parte A](img/ParteA_01.png)
+# Laboratorio 02: Instalación y prueba de xv6
+
+## Parte A: Ejecución de comandos en xv6
+
+Llamada al comando ls para ver las carpetas existentes:
+![Comando ls](img/ParteA_01.png)
