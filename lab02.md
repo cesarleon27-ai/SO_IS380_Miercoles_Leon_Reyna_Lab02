@@ -13,3 +13,7 @@ Impresión de texto y validación de datos del estudiante:
 Creación de directorio nuevo y verificación en el sistema:
 
 ![Comando mkdir](img/ParteA_03.png)
+
+Lectura del archivo de texto README incluido en el sistema:
+
+![Comando cat README](img/ParteA_04.png)
