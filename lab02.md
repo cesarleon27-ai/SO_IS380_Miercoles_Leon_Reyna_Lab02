@@ -21,3 +21,7 @@ Lectura del archivo de texto README incluido en el sistema:
 Redirección de texto para creación de archivo nuevo y lectura de verificación:
 
 ![Redirección y cat](img/ParteA_05.png)
+
+Conteo de líneas y palabras del archivo, finalizando con el cierre de QEMU:
+
+![Comando wc](img/ParteA_06.png)
