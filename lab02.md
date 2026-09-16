@@ -3,4 +3,10 @@
 ## Parte A: Ejecución de comandos en xv6
 
 Llamada al comando ls para ver las carpetas existentes:
+
 ![Comando ls](img/ParteA_01.png)
+
+Impresión de texto y validación de datos del estudiante:
+
+![Comando echo](img/ParteA_02.png)
+
