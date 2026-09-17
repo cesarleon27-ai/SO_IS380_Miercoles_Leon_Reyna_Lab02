@@ -31,3 +31,21 @@ Conteo de líneas y palabras del archivo, finalizando con el cierre de QEMU:
 Arranque y funcionamiento del sistema operativo xv6 en el entorno QEMU:
 
 ![Parte B](img/ParteB.png)
+
+## Parte C: Interfaz e implementación de llamadas al sistema
+
+Resultados de búsqueda con grep para la llamada `fork`:
+* Interfaz: `kernel/syscall.h:2:#define SYS_fork 1`
+* Implementación: `kernel/sysproc.c:26:sys_fork(void)`
+
+Resultados de búsqueda con grep para la llamada `read`:
+* Interfaz: `kernel/syscall.h:6:#define SYS_read 5`
+* Implementación: `kernel/sysfile.c:69:sys_read(void)`
+
+![Parte C](img/ParteC.png)
+
+## Parte D: Reflexión
+
+**¿Qué diferencia se observa entre la interfaz de una llamada al sistema y su implementación interna?**
+
+La interfaz (ubicada en los archivos de cabecera `.h`) opera únicamente como un identificador numérico o firma que expone y registra el servicio disponible para los programas de usuario. En contraste, la implementación (ubicada en los archivos de código fuente `.c`) contiene la lógica algorítmica completa, el manejo de estructuras y las instrucciones reales que el núcleo del sistema operativo ejecuta en el procesador.
